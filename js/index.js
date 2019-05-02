@@ -69,20 +69,32 @@ copyright.textContent = "Copyright Great Idea! 2018";
 const link1 = document.getElementById("link1");
 link1.textContent = "Services";
 
+link1.style.color = "green";
+
 const link2 = document.querySelectorAll("a");
 link2[1].textContent = "Product";
+
+link2[1].style.color ="green";
 
 const link3 = document.querySelectorAll("a");
 link3[2].textContent = "Vision";
 
+link3[2].style.color ="green";
+
 const link4 = document.querySelectorAll("a");
 link4[3].textContent = "Features";
+
+link4[3].style.color ="green";
 
 const link5 = document.querySelectorAll("a");
 link5[4].textContent = "About";
 
+link5[4].style.color ="green";
+
 const link6 = document.querySelectorAll("a");
 link6[5].textContent = "Contact";
+
+link6[5].style.color ="green";
 
 //Contact Section
 const contactheader = document.querySelector(".contact h4");
